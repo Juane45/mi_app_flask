@@ -1,1 +1,1 @@
-web: gunicorn mi_app_fask.py:mi_app_fask
+web: waitress-serve --port=$PORT mi_app_fask.py:mi_app_fask
