@@ -1,1 +1,1 @@
-web: python mi_app_fask.py
+web: gunicorn mi_app_fask.py:mi_app_fask
